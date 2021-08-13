@@ -1,0 +1,157 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',Helvetica;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: Helvetica;
+    color: #ca7bda;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #000000;
+}
+
+h1 {
+    font-family: 'Verdana';
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #852192;
+    width: 100%;
+    line-height: 100px;
+}
+
+h2 {
+    font-family: 'brush script mt';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.kegiatan {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kegiatan1 {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kegiatan1 img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+.kegiatan1 p {
+    font-family: 'Calibri';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+}
+
+.hobi {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hobi1 {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.hobi1 img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+
